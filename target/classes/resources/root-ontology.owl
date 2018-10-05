@@ -1,0 +1,475 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/CY5OJifo0F62v8GnQqHTbG#"
+     xml:base="http://webprotege.stanford.edu/project/CY5OJifo0F62v8GnQqHTbG"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/CY5OJifo0F62v8GnQqHTbG"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Rz0mwNrvVPSoBMtzymzDa -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R7Rz0mwNrvVPSoBMtzymzDa">
+        <rdfs:label xml:lang="pt-br">Autor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9c3J8VsWVhHLrvH8DsD807 -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R9c3J8VsWVhHLrvH8DsD807">
+        <rdfs:label xml:lang="pt-br">ano</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBZqWRcH6Fnv5neGJFGVG -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RBZqWRcH6Fnv5neGJFGVG">
+        <rdfs:label xml:lang="pt-br">avaliacao</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0W6iSpwNSgRC54igsPo8H -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RC0W6iSpwNSgRC54igsPo8H">
+        <rdfs:label xml:lang="pt-br">Genero</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCIEnAuMVb6ltMx5wsOijrk -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RCIEnAuMVb6ltMx5wsOijrk">
+        <rdfs:label xml:lang="pt-br">Nome</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFu7Z2EVGtJuP0O44cnV5m -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RDFu7Z2EVGtJuP0O44cnV5m">
+        <rdfs:label xml:lang="pt-br">list</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCqQQYdwmkITLbT7S6nrYs6 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCqQQYdwmkITLbT7S6nrYs6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="pt-br">alugou</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RzTYemn1Me3XYEVst6tUYQ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RzTYemn1Me3XYEVst6tUYQ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9X7wDMIVGRbQeGOF9Eckh5"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">escreveu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8btE0sC700lTTbrGUzvg8D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8btE0sC700lTTbrGUzvg8D">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="pt-br">Usuário</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9X7wDMIVGRbQeGOF9Eckh5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9X7wDMIVGRbQeGOF9Eckh5">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="pt-br">Autor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="pt-br">Livro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBvxIyeV7XnWPl37jFjFExx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBvxIyeV7XnWPl37jFjFExx">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="pt-br">Empréstimo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDMJlkyNYGUgQeJJs9WzTw0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDMJlkyNYGUgQeJJs9WzTw0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gênero</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R79Z4WSf4DLDyzburUs0W2W -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R79Z4WSf4DLDyzburUs0W2W">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9X7wDMIVGRbQeGOF9Eckh5"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/R8f3IqF3ZVyJFbPLF1y5JO4"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/RgVv2808E8V9A0x2leMsuh"/>
+        <rdfs:label xml:lang="pt-br">Gustavo Cerbasi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ckkDOo3yMtsicPl380kj6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7ckkDOo3yMtsicPl380kj6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">À margem das sombras</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7mok79rHs0qQnYHdSzVUjU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7mok79rHs0qQnYHdSzVUjU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9X7wDMIVGRbQeGOF9Eckh5"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/RB6FRFl02tSTnrYUjY1p3Zf"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/RDQ1GEQjmb4kUkqhKhppj04"/>
+        <rdfs:label xml:lang="pt-br">William Shakespeare</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7rx0C6flaM9XfPsdPH7HrS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7rx0C6flaM9XfPsdPH7HrS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9X7wDMIVGRbQeGOF9Eckh5"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/R93Q8KPoUXfady71Fi46eB2"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/RCRtKGeJBAKeTmWYOc4XkSM"/>
+        <rdfs:label xml:lang="pt-br">J. R. R. Tolkien</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81SgiGx6yrIz2MNsuHvpYD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R81SgiGx6yrIz2MNsuHvpYD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8btE0sC700lTTbrGUzvg8D"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/R8f3IqF3ZVyJFbPLF1y5JO4"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/R9r2Y0WcNFMqlRWId9jC3eD"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/RDQ1GEQjmb4kUkqhKhppj04"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/RYz4atAO29mbTwVooEwEaT"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/RgVv2808E8V9A0x2leMsuh"/>
+        <rdfs:label xml:lang="pt-br">Anônimo de Aguiar Fonseca</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8TtKKaMAP1DNiPGqhqIBM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8TtKKaMAP1DNiPGqhqIBM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9X7wDMIVGRbQeGOF9Eckh5"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/RYz4atAO29mbTwVooEwEaT"/>
+        <rdfs:label xml:lang="pt-br">Sun Tzu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8f3IqF3ZVyJFbPLF1y5JO4 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8f3IqF3ZVyJFbPLF1y5JO4">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">Como organizar sua vida financeira</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R93Q8KPoUXfady71Fi46eB2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R93Q8KPoUXfady71Fi46eB2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">Contos inacabados</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9WiubVaLzkChgTAPd5ccRY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9WiubVaLzkChgTAPd5ccRY">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">Consciência a chave para viver em equilíbrio</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9r2Y0WcNFMqlRWId9jC3eD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9r2Y0WcNFMqlRWId9jC3eD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">Geração de valor v1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB1wsUe1n3Kuoc8rjjgXWCK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB1wsUe1n3Kuoc8rjjgXWCK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">As crônicas de gelo e fogo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6FRFl02tSTnrYUjY1p3Zf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB6FRFl02tSTnrYUjY1p3Zf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">Romeu e Julieta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBgqEk6syuZAUM9zwedoj1w -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBgqEk6syuZAUM9zwedoj1w">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">O nome do vento</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtu2x8hAQujgYtl9nSMLEW -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBtu2x8hAQujgYtl9nSMLEW">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">Medo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBuR0E9Nf4jwP7vixEDOEq2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBuR0E9Nf4jwP7vixEDOEq2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9X7wDMIVGRbQeGOF9Eckh5"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/R7ckkDOo3yMtsicPl380kj6"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/RBgqEk6syuZAUM9zwedoj1w"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/REQkgJSgjeUUZX2did1ThV"/>
+        <rdfs:label xml:lang="pt-br">Patrick Rothfuss</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC92DcgLp4dUSNubcNA7zjb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC92DcgLp4dUSNubcNA7zjb">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9X7wDMIVGRbQeGOF9Eckh5"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/R9WiubVaLzkChgTAPd5ccRY"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/RBtu2x8hAQujgYtl9nSMLEW"/>
+        <rdfs:label xml:lang="pt-br">Osho</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDGfXBbvwVy69mtfpvH7Nt -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCDGfXBbvwVy69mtfpvH7Nt">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9X7wDMIVGRbQeGOF9Eckh5"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/RB1wsUe1n3Kuoc8rjjgXWCK"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/RDC6R6oePzgBACCDQddMzUU"/>
+        <rdfs:label xml:lang="pt-br">J. R. R. Martin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCRtKGeJBAKeTmWYOc4XkSM -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCRtKGeJBAKeTmWYOc4XkSM">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">A queda de Gondolin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCjdxQ2JzbsJY2A0CspR7lW -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCjdxQ2JzbsJY2A0CspR7lW">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9X7wDMIVGRbQeGOF9Eckh5"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/R9r2Y0WcNFMqlRWId9jC3eD"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/RDp0efKj0vS2GLv1OxbiDZU"/>
+        <rdfs:label xml:lang="pt-br">Flávio Augusto da Silva</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDC6R6oePzgBACCDQddMzUU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDC6R6oePzgBACCDQddMzUU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">A fúria dos reis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFLfXs4Hkpqr3dg8FdFN5E -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDFLfXs4Hkpqr3dg8FdFN5E">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8btE0sC700lTTbrGUzvg8D"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/R9WiubVaLzkChgTAPd5ccRY"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/RBtu2x8hAQujgYtl9nSMLEW"/>
+        <rdfs:label xml:lang="pt-br">Shirley Terezinha Pinto</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDQ1GEQjmb4kUkqhKhppj04 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDQ1GEQjmb4kUkqhKhppj04">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">Hamlet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDp0efKj0vS2GLv1OxbiDZU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDp0efKj0vS2GLv1OxbiDZU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">Geração de valor v2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REQkgJSgjeUUZX2did1ThV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/REQkgJSgjeUUZX2did1ThV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">O temor do sábio</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RN6OI8wGmPaLUsTe7G43mr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RN6OI8wGmPaLUsTe7G43mr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9X7wDMIVGRbQeGOF9Eckh5"/>
+        <webprotege:RzTYemn1Me3XYEVst6tUYQ rdf:resource="http://webprotege.stanford.edu/RfWUuHUEwS0myh5Spncpxz"/>
+        <rdfs:label xml:lang="pt-br">Brent Weeks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYz4atAO29mbTwVooEwEaT -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RYz4atAO29mbTwVooEwEaT">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">A arte da guerra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfWUuHUEwS0myh5Spncpxz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RfWUuHUEwS0myh5Spncpxz">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">Caminho das sombras</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgVv2808E8V9A0x2leMsuh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RgVv2808E8V9A0x2leMsuh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBTTRmGYPLrCq2OtKJecrIV"/>
+        <rdfs:label xml:lang="pt-br">Investimentos inteligentes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvRmtxD1i7rFeMhuqnXoYI -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RvRmtxD1i7rFeMhuqnXoYI">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8btE0sC700lTTbrGUzvg8D"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/R8f3IqF3ZVyJFbPLF1y5JO4"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/R93Q8KPoUXfady71Fi46eB2"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/R9WiubVaLzkChgTAPd5ccRY"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/RB1wsUe1n3Kuoc8rjjgXWCK"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/RBgqEk6syuZAUM9zwedoj1w"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/RDC6R6oePzgBACCDQddMzUU"/>
+        <webprotege:RCqQQYdwmkITLbT7S6nrYs6 rdf:resource="http://webprotege.stanford.edu/RfWUuHUEwS0myh5Spncpxz"/>
+        <rdfs:label xml:lang="pt-br">Alfredo da Silva</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.2) https://github.com/owlcs/owlapi -->
+
