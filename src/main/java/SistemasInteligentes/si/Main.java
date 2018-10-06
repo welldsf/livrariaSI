@@ -6,12 +6,14 @@ import org.semanticweb.owlapi.reasoner.NodeSet;
 
 public class Main {
 
+    private static final String ONTOLOGY_PATH = "src/main/java/resources/livraria.owl";
+    private static final String USUARIO = "Usuario";
+    private static final String LIVRO = "Livro";
+
     public static void main(String args[]) throws OWLOntologyCreationException {
-        String ontologyPath = "src/main/java/resources/livraria.owl";
+        OntologyHelper helper = new OntologyHelper(ONTOLOGY_PATH);
 
-        OntologyHelper helper = new OntologyHelper(ontologyPath);
-
-        NodeSet<OWLNamedIndividual> usuarios = helper.getIndividualsOf("Usuario");
-        NodeSet<OWLNamedIndividual> livros = helper.getIndividualsOf("Livro");
+        NodeSet<OWLNamedIndividual> usuarios = helper.getIndividualsOf(USUARIO);
+        NodeSet<OWLNamedIndividual> livros = helper.getIndividualsOf(LIVRO);
     }
 }

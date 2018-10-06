@@ -8,7 +8,6 @@ import org.semanticweb.owlapi.reasoner.OWLReasonerFactory;
 import org.semanticweb.owlapi.reasoner.structural.StructuralReasonerFactory;
 
 import java.io.File;
-import java.util.ArrayList;
 
 class OntologyHelper {
 
@@ -24,14 +23,10 @@ class OntologyHelper {
     }
 
     NodeSet<OWLNamedIndividual> getIndividualsOf(String className) {
-
-        for (OWLClass owlClass : ontology.getClassesInSignature()) {
-            if (owlClass.getIRI().getFragment().equals(className)) {
-
-                return reasoner.getInstances(owlClass, false);
-            }
-        }
-
-        return null;
+        OWLClass owlClass = ontology.classesInSignature()
+                .filter(it -> it.getIRI().getShortForm().equals(className))
+                .findFirst()
+                .get();
+        return reasoner.getInstances(owlClass, false);
     }
 }
