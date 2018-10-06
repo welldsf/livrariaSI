@@ -7,7 +7,7 @@ import org.semanticweb.owlapi.reasoner.NodeSet;
 public class Main {
 
     public static void main(String args[]) throws OWLOntologyCreationException {
-        String ontologyPath = "src\\main\\java\\resources\\livraria.owl";
+        String ontologyPath = "src/main/java/resources/livraria.owl";
 
         OntologyHelper helper = new OntologyHelper(ontologyPath);
 
