@@ -4,6 +4,7 @@ import java.util.Optional;
 
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLClass;
+import org.semanticweb.owlapi.model.OWLIndividual;
 import org.semanticweb.owlapi.model.OWLOntology;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 
@@ -15,16 +16,21 @@ public class Main {
 	public static void main(String args[]) throws OWLOntologyCreationException {
 
 		OWLOntology ontology = OntologyHelper
-				.load("D:\\programacao\\workspace\\si\\src\\main\\java\\resources\\root-ontology.owl");
-		OntologyPath = "D:\\\\programacao\\\\workspace\\\\si\\\\src\\\\main\\\\java\\\\resources\\\\root-ontology.owl";
+				.load("D:\\programacao\\workspace\\si\\src\\main\\java\\resources\\livraria.owl");
+		OntologyPath = "D:\\\\programacao\\workspace\\si\\src\\main\\java\\resources\\livraria.owl";
 
 		Ontology = OntologyHelper.load(OntologyPath);
 		Optional<IRI> iri = Ontology.getOntologyID().getOntologyIRI();
 
 		for (OWLClass c : OntologyHelper.getAllClasses(OntologyPath)) {
-			System.out.println("Eu sou " + OntologyHelper.getClassName(c));
+//			System.out.println("Eu sou " + OntologyHelper.getClassName(c));
 //			for (OWLClass cl : OntologyHelper.getAllClasses(c)) {
 //				System.out.println(OntologyHelper.getClassName(cl));
+		}
+
+		for (OWLIndividual i : OntologyHelper.getAllIndividuals(OntologyPath)) {
+
+			System.out.println("Insividual " + OntologyHelper.getIndividualName(i));
 		}
 
 	}
