@@ -5,7 +5,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:livraria2="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2"/>
     
 
@@ -110,6 +111,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#A_arte_da_guerra">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administrcao</genero>
     </owl:NamedIndividual>
     
 
@@ -118,6 +120,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#A_furia_dos_reis">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ficcao</genero>
     </owl:NamedIndividual>
     
 
@@ -126,6 +129,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#A_margem_das_sombras">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ficcao</genero>
     </owl:NamedIndividual>
     
 
@@ -134,6 +138,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#A_queda_de_Gondolin">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ficcao</genero>
     </owl:NamedIndividual>
     
 
@@ -158,6 +163,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#As_cronicas_de_gelo_e_fogo">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ficcao</genero>
     </owl:NamedIndividual>
     
 
@@ -174,6 +180,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Caminho_das_sombras">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ficcao</genero>
     </owl:NamedIndividual>
     
 
@@ -182,6 +189,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Como_organizar_sua_vida_financeira">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Financas</genero>
     </owl:NamedIndividual>
     
 
@@ -190,6 +198,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Consciencia_a_chave_para_viver_em_equilibrio">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filosofia</genero>
     </owl:NamedIndividual>
     
 
@@ -198,6 +207,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Contos_inacabados">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ficcao</genero>
     </owl:NamedIndividual>
     
 
@@ -206,6 +216,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Flavio_Augusto_da_Silva">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Autor"/>
+        <escreveu rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Geracao_de_valor_v1"/>
+        <escreveu rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Geracao_de_valor_v2"/>
     </owl:NamedIndividual>
     
 
@@ -214,6 +226,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Geracao_de_valor_v1">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Financas</genero>
     </owl:NamedIndividual>
     
 
@@ -222,6 +235,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Geracao_de_valor_v2">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Financas</genero>
     </owl:NamedIndividual>
     
 
@@ -237,7 +251,7 @@
     <!-- http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Hamlet -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Hamlet">
-        <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Autor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
     </owl:NamedIndividual>
     
 
@@ -246,6 +260,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Investimentos_inteligentes">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Financas</genero>
     </owl:NamedIndividual>
     
 
@@ -270,6 +285,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Medo">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Policial</genero>
     </owl:NamedIndividual>
     
 
@@ -278,6 +294,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#O_nome_do_vento">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ficcao</genero>
     </owl:NamedIndividual>
     
 
@@ -286,6 +303,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#O_temor_do_sabio">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ficcao</genero>
     </owl:NamedIndividual>
     
 
@@ -302,6 +320,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Patrick_Rothfuss">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Autor"/>
+        <escreveu rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#O_nome_do_vento"/>
+        <escreveu rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#O_temor_do_sabio"/>
     </owl:NamedIndividual>
     
 
@@ -310,6 +330,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Romeu_e_Julieta">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romance</genero>
     </owl:NamedIndividual>
     
 
@@ -326,6 +347,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Sun_Tzu">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Autor"/>
+        <escreveu rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#A_arte_da_guerra"/>
+        <escreveu rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Medo"/>
     </owl:NamedIndividual>
     
 
@@ -334,6 +357,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#William_Shakespeare">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Autor"/>
+        <escreveu rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Hamlet"/>
+        <escreveu rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Romeu_e_Julieta"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
