@@ -1,57 +1,17 @@
 package SistemasInteligentes.si;
 
-import java.util.Optional;
-
-import org.semanticweb.owlapi.model.IRI;
-import org.semanticweb.owlapi.model.OWLClass;
-import org.semanticweb.owlapi.model.OWLIndividual;
-import org.semanticweb.owlapi.model.OWLOntology;
+import org.semanticweb.owlapi.model.OWLNamedIndividual;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
+import org.semanticweb.owlapi.reasoner.NodeSet;
 
 public class Main {
 
-	public static String OntologyPath;
-	public static OWLOntology Ontology;
+    public static void main(String args[]) throws OWLOntologyCreationException {
+        String ontologyPath = "src\\main\\java\\resources\\livraria.owl";
 
-	public static void main(String args[]) throws OWLOntologyCreationException {
+        OntologyHelper helper = new OntologyHelper(ontologyPath);
 
-		OWLOntology ontology = OntologyHelper
-				.load("D:\\programacao\\workspace\\si\\src\\main\\java\\resources\\livraria.owl");
-		OntologyPath = "D:\\\\programacao\\workspace\\si\\src\\main\\java\\resources\\livraria.owl";
-
-		Ontology = OntologyHelper.load(OntologyPath);
-		Optional<IRI> iri = Ontology.getOntologyID().getOntologyIRI();
-
-		for (OWLClass c : OntologyHelper.getAllClasses(OntologyPath)) {
-//			System.out.println("Eu sou " + OntologyHelper.getClassName(c));
-//			for (OWLClass cl : OntologyHelper.getAllClasses(c)) {
-//				System.out.println(OntologyHelper.getClassName(cl));
-		}
-
-		for (OWLIndividual i : OntologyHelper.getAllIndividuals(OntologyPath)) {
-
-			System.out.println("Insividual " + OntologyHelper.getIndividualName(i));
-		}
-
-	}
-
-//		new SpeakingInterface();
-
-//		Set<OWLClass> classes = ontology.getClassesInSignature();
-//
-//		Set<OWLNamedIndividual> names = ontology.getIndividualsInSignature();
-//
-//		for (OWLNamedIndividual c : names) {
-//			System.out.println(OntologyHelper.getIndividualName(c));
-//			Set<OWLClassAssertionAxiom> a = ontology.getClassAssertionAxioms(c);
-//			System.out.println(a.toString());
-//			for (OWLClassAssertionAxiom t : a) {
-//				Set<OWLClass> type = t.getClassesInSignature();
-//				for (OWLClass owlClass : type) {
-//					System.out.println(OntologyHelper.getClassName(owlClass));
-//				}
-//			}
-//		}
-
+        NodeSet<OWLNamedIndividual> usuarios = helper.getIndividualsOf("Usuario");
+        NodeSet<OWLNamedIndividual> livros = helper.getIndividualsOf("Livro");
+    }
 }
-//}
