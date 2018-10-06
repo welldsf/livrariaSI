@@ -7,7 +7,9 @@ import org.semanticweb.owlapi.reasoner.OWLReasonerFactory;
 import org.semanticweb.owlapi.reasoner.structural.StructuralReasonerFactory;
 
 import java.io.File;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 class OntologyHelper {
@@ -34,10 +36,35 @@ class OntologyHelper {
                 .collect(Collectors.toList());
     }
 
-    List<OWLObjectPropertyAssertionAxiom> getAxioms(String subject, String property) {
+    Map<OWLNamedIndividual, List<OWLObjectPropertyAssertionAxiom>> mapAxioms(List<OWLNamedIndividual> subjects, String property) {
+        Map<OWLNamedIndividual, List<OWLObjectPropertyAssertionAxiom>> map = new HashMap<>();
+
+        subjects.forEach(it -> {
+            String usuario = it.getIRI().getShortForm();
+            List<OWLObjectPropertyAssertionAxiom> axioms = this.mapAxioms(usuario, property);
+            map.put(it, axioms);
+        });
+        return map;
+    }
+
+    private List<OWLObjectPropertyAssertionAxiom> mapAxioms(String subject, String property) {
         return ontology.axioms(AxiomType.OBJECT_PROPERTY_ASSERTION)
                 .filter(it -> it.getSubject().toString().contains(subject) &&
                         it.getProperty().getNamedProperty().getIRI().getShortForm().equals(property))
                 .collect(Collectors.toList());
+    }
+
+    Map<OWLNamedIndividual, String> mapCategorias(List<OWLNamedIndividual> livros) {
+        Map<OWLNamedIndividual, String> categoriasPorLivro = new HashMap<>();
+
+        livros.forEach(livro -> {
+            OWLDataPropertyAssertionAxiom categoria = ontology.axioms(AxiomType.DATA_PROPERTY_ASSERTION)
+                    .filter(it -> it.getSubject().equals(livro))
+                    .findFirst()
+                    .get();
+            categoriasPorLivro.put(livro, categoria.getObject().toString());
+        });
+
+        return categoriasPorLivro;
     }
 }
