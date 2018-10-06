@@ -267,6 +267,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Hamlet">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Livro"/>
+        <genero rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romance</genero>
     </owl:NamedIndividual>
     
 
