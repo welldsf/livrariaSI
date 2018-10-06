@@ -147,6 +147,13 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Alfredo_da_Silva">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Usuario"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#A_furia_dos_reis"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#A_queda_de_Gondolin"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#As_cronicas_de_gelo_e_fogo"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Investimentos_inteligentes"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#O_Prisma_Negro"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#O_nome_do_vento"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#O_temor_do_sabio"/>
     </owl:NamedIndividual>
     
 
@@ -155,6 +162,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Anonimo_de_Aguiar">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Usuario"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Como_organizar_sua_vida_financeira"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Geracao_de_valor_v1"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Investimentos_inteligentes"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Medo"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#O_Prisma_Negro"/>
     </owl:NamedIndividual>
     
 
@@ -357,6 +369,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Shirley_Terezinha">
         <rdf:type rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Usuario"/>
+        <alugou rdf:resource="http://www.semanticweb.org/well/ontologies/2018/9/livraria2#Hamlet"/>
     </owl:NamedIndividual>
     
 
